@@ -35,7 +35,7 @@ struct arg_t
 
 void usage(const char* prog)
 {
-	PRINT("lcx mod by Tritone,version :%s\r\n", VERSION);
+	PRINT("lcx mod by Tristone,version :%s\r\n", VERSION);
 	PRINT("usage:\r\n%s port1 port2\r\n", prog);
 }
 
