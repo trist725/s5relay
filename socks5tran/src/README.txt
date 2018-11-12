@@ -1,5 +1,12 @@
 
-socks5tran V0.1测试版：
+
+更新说明：
+
+V0.2
+1.使程序支持多客户端连接；
+2.增加Makfile
+
+socks5tran V0.1：
 
 0.整合了socks5服务端和htran的slave功能，并改进了数据收发模型；
 1.编译命令：g++ socks5tran.cpp -o st -lpthread , st为可执行文件名；
@@ -7,10 +14,6 @@ socks5tran V0.1测试版：
 3.示例： ./st ip1  port1  port2 ,其中ip1、port1为欲连接的lcx的IP和端口，port2为本机socks5服务端使用的端口，可设为任意未被占用的端口号；
 4.运行若提示无权限，请以root权限执行命令；
 5.socks用户名和密码暂时写死为user= 111111 ,psw= 222222  。
-
-V0.2
-1.使程序支持多客户端连接；
-2.增加Makfile
 
 编译命令：
 make
